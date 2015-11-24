@@ -19,12 +19,17 @@ namespace ConsoleApplication1
         [SetUp]
         public void Initialize()
         { 
-            driver.Navigate().GoToUrl("http://www.google.com");
+            driver.Navigate().GoToUrl("https://support.software.dell.com/appassure/kb");
             Console.WriteLine("first output"); 
         }
         [Test]
         public void ExecuteText()
         {
+
+            //EnterText(element, value, type)
+
+
+
             IWebElement element = driver.FindElement(By.Id("lst-ib"));
             element.SendKeys("test of automation");
             element.SendKeys(Keys.Enter);
