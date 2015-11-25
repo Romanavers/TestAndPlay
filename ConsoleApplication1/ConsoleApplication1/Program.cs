@@ -8,11 +8,12 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support;
 
+
 namespace ConsoleApplication1
 {
     class ChromeLaunch
     {
-        IWebDriver driver = new ChromeDriver(@"D:\Projects\chromedriver_win32");
+        IWebDriver driver = new ChromeDriver(@"E:\Projects\chromedriver_win32");
         static void Main(string[] args)
         {
         }
@@ -27,18 +28,16 @@ namespace ConsoleApplication1
         {
 
             //EnterText(element, value, type)
+            SeleniumSetMethods.EnterText(driver, "txtKbAutoCompleteKeyword", "test", By.Id);
+            //click
+            
+            
 
-
-
-            IWebElement element = driver.FindElement(By.Id("lst-ib"));
-            element.SendKeys("test of automation");
-            element.SendKeys(Keys.Enter);
-            Console.WriteLine("second output");
         }
         [TearDown]
         public void CleanUp()
         {
-            driver.Close();
+            //driver.Close();
             Console.WriteLine("third output");
         }
     }
