@@ -6,3 +6,11 @@ D:\Projects\Git_repository\TestAndPlay\Animals\Animals.console\bin\Debug\Animals
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.csprojResolveAssemblyReference.cache
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.exe
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\bin\Debug\Animals.console.exe.config
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.exe
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\bin\Debug\Animals.console.exe
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\bin\Debug\Animals.console.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\bin\Debug\Animals.dll
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\bin\Debug\Animals.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals.console\obj\Debug\Animals.console.csprojResolveAssemblyReference.cache

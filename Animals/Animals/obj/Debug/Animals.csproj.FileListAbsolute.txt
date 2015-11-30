@@ -3,3 +3,8 @@ D:\Projects\Git_repository\TestAndPlay\Animals\Animals\bin\Debug\Animals.pdb
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals\obj\Debug\Animals.dll
 D:\Projects\Git_repository\TestAndPlay\Animals\Animals\obj\Debug\Animals.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals\bin\Debug\Animals.dll
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals\bin\Debug\Animals.pdb
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals\obj\Debug\Animals.dll
+E:\Projects\Repo_TestAndPlay\TestAndPlay\Animals\Animals\obj\Debug\Animals.pdb
