@@ -21,7 +21,7 @@ namespace Cash
             }
             else
             {
-                MessageBox.Show("I don't have enough money" + amount, Name + "says");
+                MessageBox.Show("I don't have enough money " + amount, Name + " says");
                 return 0;
             }
         }
@@ -35,7 +35,7 @@ namespace Cash
             }
             else
             {
-                MessageBox.Show(amount + "I don't need", Name + "says ...");
+                MessageBox.Show(amount + " I don't need", Name + " says ...");
                 return 0;
             }
         }

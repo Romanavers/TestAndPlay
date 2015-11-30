@@ -22,19 +22,17 @@ namespace Cash
             bob.Name = "Bob";
             bob.Cash = 100;
 
-            joe = new Guy();
-            joe.Name = "Joe";
-            joe.Cash = 50;
-
+            joe = new Guy() {Cash = 50, Name = "Joe"};
+            
             UpdateForm();
 
         }
 
         public void UpdateForm()
         {
-            joesCashLabel.Text = joe.Name + "has $" + joe.Cash;
-            bobsCashLabel.Text = bob.Name + "has $" + bob.Cash;
-            bankCashLabel.Text = "Bank has $ now" + bank;
+            joesCashLabel.Text = joe.Name + " has $ " + joe.Cash;
+            bobsCashLabel.Text = bob.Name + " has $ " + bob.Cash;
+            bankCashLabel.Text = " Bank has now $ " + bank;
         }
 
        private void button1_Click(object sender, EventArgs e)
@@ -53,6 +51,18 @@ namespace Cash
         private void button2_Click(object sender, EventArgs e)
         {
             bank += bob.GiveCash(5);
+            UpdateForm();
+        }
+
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            bob.ReceiveCash(joe.GiveCash(10));
+            UpdateForm();
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            joe.ReceiveCash(bob.GiveCash(5));
             UpdateForm();
         }
     }
