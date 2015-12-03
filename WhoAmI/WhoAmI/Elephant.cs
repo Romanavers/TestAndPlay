@@ -17,5 +17,15 @@ namespace WhoAmI
             MessageBox.Show("My ears are " + EarSize + " inches tall", Name + " says");
 
         }
+
+        public void TellMe(string message, Elephant WhoSaidIt)
+        {
+            MessageBox.Show(WhoSaidIt.Name + " says: " + message);
+        }
+
+        public void SpeakTo(Elephant whoToTalkTo, string message)
+        {
+            whoToTalkTo.TellMe(message, this);
+        }
     }
 }
