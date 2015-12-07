@@ -14,7 +14,7 @@ namespace WhoAmI
 
         public void WhoAmI()
         {
-            MessageBox.Show("My ears are " + EarSize + " inches tall", Name + " says");
+            MessageBox.Show(" My ears are " + EarSize + " inches tall ", Name + " says");
 
         }
 
